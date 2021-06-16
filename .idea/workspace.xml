@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a51088-195f-4d8d-97e4-d93f4a4e26a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/allTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/case_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/case_data.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,73 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.allTest">
+    <configuration name="allTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/allTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_aqi.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="my-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_aqi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.allTest" />
+        <item itemvalue="Python tests.pytest in test_aqi.py" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,5 +127,47 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2571" y="174" key="#allTest" timestamp="1623829375411">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2571" y="174" key="#allTest/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829375411" />
+    <state width="1362" height="235" key="GridCell.Tab.0.bottom" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.0.center" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.0.left" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.0.right" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.1.bottom" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.1.center" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.1.left" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="235" key="GridCell.Tab.1.right" timestamp="1623835952347">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="235" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state x="2409" y="275" key="SettingsEditor" timestamp="1623829457782">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2409" y="275" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829457782" />
   </component>
 </project>

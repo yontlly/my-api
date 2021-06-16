@@ -3,7 +3,7 @@ import shutil
 from testcase.test_aqi import pytest
 from common import logger
 from common.read_file import ReadFile
-import logger
+#import logger
 
 report = ReadFile.read_config('$.file_path.report')
 logfile = ReadFile.read_config('$.file_path.log')
@@ -16,7 +16,7 @@ def run():
     logger.info('开始测试...')
     pytest.main(
         args=[
-            'test/test_api.py',
+            'testcase/test_aqi.py',
             "-s",
             "-v",
             f'--alluredir={report}/data'])

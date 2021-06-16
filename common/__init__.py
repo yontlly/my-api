@@ -93,14 +93,12 @@ def convert_json(dict_str: str) -> dict:
     return dict_str
 
 
+'''
+写allure报告
+'''
 def allure_title(title: str) -> None:
     """allure中显示的用例标题"""
     allure.dynamic.title(title)
-
-def allure_step(case_step: str) :
-    allure.dynamic.story(case_step)
-
-
 
 def allure_step(step: str, var: str) -> None:
     """
