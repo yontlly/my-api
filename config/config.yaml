@@ -18,7 +18,7 @@ expr:
   token: $.data.token
 
 file_path:
-  test_case: data/case_data-1.xlsx
+  test_case: data/case_data.xlsx
   report: report/
   log: log/run{time}.log
 
