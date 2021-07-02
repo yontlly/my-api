@@ -1,0 +1,3 @@
+{
+    "cloudsecret": "QcdrQDJFfum3XetJa9KvkkuW2O1xS2rW"
+}

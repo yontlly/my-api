@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Jul 02 16:29:49 GMT+08:00 2021","Fri Jul 02 16:29:49 GMT+08:00 2021","22","testcase","test_aqi","","","","testcase.test_aqi#test_main",""
+"broken","Fri Jul 02 16:29:49 GMT+08:00 2021","Fri Jul 02 16:29:49 GMT+08:00 2021","24","testcase","test_aqi","","","","testcase.test_aqi#test_main",""
+"passed","Fri Jul 02 16:29:48 GMT+08:00 2021","Fri Jul 02 16:29:48 GMT+08:00 2021","108","testcase","test_aqi","","","","缺少参数",""
+"broken","Fri Jul 02 16:29:48 GMT+08:00 2021","Fri Jul 02 16:29:48 GMT+08:00 2021","21","testcase","test_aqi","","","","testcase.test_aqi#test_main",""
+"passed","Fri Jul 02 16:29:48 GMT+08:00 2021","Fri Jul 02 16:29:48 GMT+08:00 2021","108","testcase","test_aqi","","","","缺少参数",""
+"passed","Fri Jul 02 16:29:48 GMT+08:00 2021","Fri Jul 02 16:29:48 GMT+08:00 2021","231","testcase","test_aqi","","","","正常登陆",""
+"passed","Fri Jul 02 16:29:48 GMT+08:00 2021","Fri Jul 02 16:29:48 GMT+08:00 2021","164","testcase","test_aqi","","","","正常登陆",""

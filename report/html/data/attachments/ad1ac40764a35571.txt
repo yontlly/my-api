@@ -1,0 +1,7 @@
+{
+    "case_001": {
+        "errcode": "0",
+        "errmsg": "成功",
+        "access_token": "pEHU5Oq2NxTgPwgwufxyW96tYLxLj5Ni"
+    }
+}

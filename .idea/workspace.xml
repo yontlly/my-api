@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8a51088-195f-4d8d-97e4-d93f4a4e26a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/allTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/data_process.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="f8a51088-195f-4d8d-97e4-d93f4a4e26a9" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,22 +129,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2571" y="174" key="#allTest/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829375411" />
-    <state width="1362" height="251" key="GridCell.Tab.0.bottom" timestamp="1625209171710">
+    <state width="1362" height="251" key="GridCell.Tab.0.bottom" timestamp="1625214586506">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
-    <state width="1362" height="251" key="GridCell.Tab.0.center" timestamp="1625209171710">
+    <state width="1362" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625214586506" />
+    <state width="1362" height="251" key="GridCell.Tab.0.center" timestamp="1625214586502">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
-    <state width="1362" height="251" key="GridCell.Tab.0.left" timestamp="1625209171710">
+    <state width="1362" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625214586502" />
+    <state width="1362" height="251" key="GridCell.Tab.0.left" timestamp="1625214586501">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
-    <state width="1362" height="251" key="GridCell.Tab.0.right" timestamp="1625209171710">
+    <state width="1362" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625214586501" />
+    <state width="1362" height="251" key="GridCell.Tab.0.right" timestamp="1625214586505">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
+    <state width="1362" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625214586505" />
     <state width="1362" height="235" key="GridCell.Tab.1.bottom" timestamp="1623835952347">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
