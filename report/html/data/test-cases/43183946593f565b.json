@@ -1,0 +1,273 @@
+{
+  "uid" : "43183946593f565b",
+  "name" : "正常登陆",
+  "fullName" : "testcase.test_aqi#test_main",
+  "historyId" : "4d675ddc4622338a5491355ba44aafef",
+  "time" : {
+    "start" : 1625209172888,
+    "stop" : 1625209173096,
+    "duration" : 208
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1625209172887,
+      "stop" : 1625209172887,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址",
+      "time" : {
+        "start" : 1625209172889,
+        "stop" : 1625209172892,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8afb3cf8307db8d",
+        "name" : "请求地址",
+        "source" : "8afb3cf8307db8d.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1625209172892,
+        "stop" : 1625209172897,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e619d121e50df45f",
+        "name" : "请求头",
+        "source" : "e619d121e50df45f.txt",
+        "type" : "text/plain",
+        "size" : 220
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求参数",
+      "time" : {
+        "start" : 1625209172897,
+        "stop" : 1625209172909,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4486f8fbecde3ff2",
+        "name" : "请求参数",
+        "source" : "4486f8fbecde3ff2.txt",
+        "type" : "text/plain",
+        "size" : 90
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1625209172909,
+        "stop" : 1625209172913,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b83ff5fa35ab26f",
+        "name" : "上传文件",
+        "source" : "3b83ff5fa35ab26f.txt",
+        "type" : "text/plain",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "响应耗时(s)",
+      "time" : {
+        "start" : 1625209173072,
+        "stop" : 1625209173076,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e08c6600bfdf7f6",
+        "name" : "响应耗时(s)",
+        "source" : "e08c6600bfdf7f6.txt",
+        "type" : "text/plain",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "响应内容",
+      "time" : {
+        "start" : 1625209173076,
+        "stop" : 1625209173080,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db2527e7575d95b",
+        "name" : "响应内容",
+        "source" : "db2527e7575d95b.txt",
+        "type" : "text/plain",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求头中添加Token",
+      "time" : {
+        "start" : 1625209173081,
+        "stop" : 1625209173085,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e36b3880542bf2e",
+        "name" : "请求头中添加Token",
+        "source" : "3e36b3880542bf2e.txt",
+        "type" : "text/plain",
+        "size" : 247
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "存储实际响应",
+      "time" : {
+        "start" : 1625209173086,
+        "stop" : 1625209173091,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "580e22c51b21ca5b",
+        "name" : "存储实际响应",
+        "source" : "580e22c51b21ca5b.txt",
+        "type" : "text/plain",
+        "size" : 138
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1625209173092,
+        "stop" : 1625209173096,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5331a246b3bf213",
+        "name" : "第1个断言",
+        "source" : "a5331a246b3bf213.txt",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=0, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_aqi"
+  }, {
+    "name" : "host",
+    "value" : "yanghua1-L1"
+  }, {
+    "name" : "thread",
+    "value" : "29936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_aqi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['case_001', '概述', '获取企业AccessToken', '正常登陆', '/v1/gettoken', '写', 'get', 'params', '', '{\\n \"corpid\": \"1917616998539305\",\\n \"corpsecret\": \"T19aEv5yrt8OoN5RvIKKGwtAfTwH0MI8\"\\n}', '', '{\\n    \"errcode\": \"0\",\\n    \"errmsg\": \"成功\",\\n    \"access_token\": \"IwtKr52j5mefoqjtD9UzBXzbUuR36sTP\"\\n}', '{\"$.errmsg\":\"成功\"}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=0, reruns_delay=1)" ]
+  },
+  "source" : "43183946593f565b.json",
+  "parameterValues" : [ "['case_001', '概述', '获取企业AccessToken', '正常登陆', '/v1/gettoken', '写', 'get', 'params', '', '{\\n \"corpid\": \"1917616998539305\",\\n \"corpsecret\": \"T19aEv5yrt8OoN5RvIKKGwtAfTwH0MI8\"\\n}', '', '{\\n    \"errcode\": \"0\",\\n    \"errmsg\": \"成功\",\\n    \"access_token\": \"IwtKr52j5mefoqjtD9UzBXzbUuR36sTP\"\\n}', '{\"$.errmsg\":\"成功\"}']" ]
+}

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a51088-195f-4d8d-97e4-d93f4a4e26a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/allTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_requests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/case_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/case_data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/data_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/data_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/read_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,8 +107,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.allTest" />
-        <item itemvalue="Python tests.pytest in test_aqi.py" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest in test_aqi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -129,26 +129,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2331" y="186" key="#Inspections" timestamp="1625051416530">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2331" y="186" key="#Inspections/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051416530" />
     <state x="2571" y="174" key="#allTest" timestamp="1623829375411">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2571" y="174" key="#allTest/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829375411" />
-    <state width="1362" height="235" key="GridCell.Tab.0.bottom" timestamp="1623835952347">
+    <state width="1362" height="251" key="GridCell.Tab.0.bottom" timestamp="1625209171710">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
-    <state width="1362" height="235" key="GridCell.Tab.0.center" timestamp="1623835952347">
+    <state width="1362" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
+    <state width="1362" height="251" key="GridCell.Tab.0.center" timestamp="1625209171710">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
-    <state width="1362" height="235" key="GridCell.Tab.0.left" timestamp="1623835952347">
+    <state width="1362" height="251" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
+    <state width="1362" height="251" key="GridCell.Tab.0.left" timestamp="1625209171710">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
-    <state width="1362" height="235" key="GridCell.Tab.0.right" timestamp="1623835952347">
+    <state width="1362" height="251" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
+    <state width="1362" height="251" key="GridCell.Tab.0.right" timestamp="1625209171710">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
+    <state width="1362" height="251" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625209171710" />
     <state width="1362" height="235" key="GridCell.Tab.1.bottom" timestamp="1623835952347">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -165,9 +169,13 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1362" height="235" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623835952347" />
-    <state x="2409" y="275" key="SettingsEditor" timestamp="1623829457782">
+    <state x="2409" y="275" key="SettingsEditor" timestamp="1625051401348">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2409" y="275" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829457782" />
+    <state x="2409" y="275" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051401348" />
+    <state x="2419" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1625051285334">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2419" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051285334" />
   </component>
 </project>

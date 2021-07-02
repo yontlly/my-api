@@ -1,0 +1,138 @@
+{
+  "4d675ddc4622338a5491355ba44aafef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43183946593f565b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209172888,
+        "stop" : 1625209173096,
+        "duration" : 208
+      }
+    } ]
+  },
+  "701f5ef96561ded994a4c4897a02a6b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd6208d7b3aeaecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209173210,
+        "stop" : 1625209173348,
+        "duration" : 138
+      }
+    } ]
+  },
+  "5d2f4d5a22f57b7250f3e6326f8f6f7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa4650dd06a6e133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209173100,
+        "stop" : 1625209173204,
+        "duration" : 104
+      }
+    } ]
+  },
+  "75e59092ab8da166b399b91da98ab985" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "679d8be5e9fbd1a5",
+      "status" : "broken",
+      "statusDetails" : "ValueError: 可选关键字为：get/delete/head/options/请求使用params, post/put/patch请求可使用json（application/json）/data",
+      "time" : {
+        "start" : 1625209173765,
+        "stop" : 1625209173780,
+        "duration" : 15
+      }
+    } ]
+  },
+  "d50427d51609ac50d2f7f0af36415d76" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e24e58bc2b46cd0f",
+      "status" : "broken",
+      "statusDetails" : "ValueError: 可选关键字为：get/delete/head/options/请求使用params, post/put/patch请求可使用json（application/json）/data",
+      "time" : {
+        "start" : 1625209173469,
+        "stop" : 1625209173490,
+        "duration" : 21
+      }
+    } ]
+  },
+  "1ba2dbb23be84850a60baffe8c3998e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e9d341f9d94a05c",
+      "status" : "broken",
+      "statusDetails" : "ValueError: 可选关键字为：get/delete/head/options/请求使用params, post/put/patch请求可使用json（application/json）/data",
+      "time" : {
+        "start" : 1625209173796,
+        "stop" : 1625209173814,
+        "duration" : 18
+      }
+    } ]
+  },
+  "a7986a8d31975a7cfcd3e7a9020b8a6e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dd4ca3ae98dabb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209173354,
+        "stop" : 1625209173463,
+        "duration" : 109
+      }
+    } ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "uid" : "fd6208d7b3aeaecd",
+  "name" : "正常登陆",
+  "fullName" : "testcase.test_aqi#test_main",
+  "historyId" : "701f5ef96561ded994a4c4897a02a6b8",
+  "time" : {
+    "start" : 1625209173210,
+    "stop" : 1625209173348,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "cases",
+    "time" : {
+      "start" : 1625209173209,
+      "stop" : 1625209173209,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "请求地址",
+      "time" : {
+        "start" : 1625209173210,
+        "stop" : 1625209173214,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1b784e3e5185fa64",
+        "name" : "请求地址",
+        "source" : "1b784e3e5185fa64.txt",
+        "type" : "text/plain",
+        "size" : 44
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求头",
+      "time" : {
+        "start" : 1625209173214,
+        "stop" : 1625209173219,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cfc52790fbd2b357",
+        "name" : "请求头",
+        "source" : "cfc52790fbd2b357.txt",
+        "type" : "text/plain",
+        "size" : 220
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "请求参数",
+      "time" : {
+        "start" : 1625209173220,
+        "stop" : 1625209173226,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "450a3a5d497a4388",
+        "name" : "请求参数",
+        "source" : "450a3a5d497a4388.txt",
+        "type" : "text/plain",
+        "size" : 57
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "上传文件",
+      "time" : {
+        "start" : 1625209173226,
+        "stop" : 1625209173230,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "765aa4862a88686a",
+        "name" : "上传文件",
+        "source" : "765aa4862a88686a.txt",
+        "type" : "text/plain",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "响应耗时(s)",
+      "time" : {
+        "start" : 1625209173329,
+        "stop" : 1625209173333,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7dae54ca2aaf445",
+        "name" : "响应耗时(s)",
+        "source" : "f7dae54ca2aaf445.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "响应内容",
+      "time" : {
+        "start" : 1625209173333,
+        "stop" : 1625209173338,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e3a11143f15f9e5",
+        "name" : "响应内容",
+        "source" : "2e3a11143f15f9e5.txt",
+        "type" : "text/plain",
+        "size" : 102
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "存储实际响应",
+      "time" : {
+        "start" : 1625209173338,
+        "stop" : 1625209173343,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "486d4a7a47c1c02a",
+        "name" : "存储实际响应",
+        "source" : "486d4a7a47c1c02a.txt",
+        "type" : "text/plain",
+        "size" : 361
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "第1个断言",
+      "time" : {
+        "start" : 1625209173344,
+        "stop" : 1625209173348,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "993946799cbeb4c9",
+        "name" : "第1个断言",
+        "source" : "993946799cbeb4c9.txt",
+        "type" : "text/plain",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=0, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_aqi"
+  }, {
+    "name" : "host",
+    "value" : "yanghua1-L1"
+  }, {
+    "name" : "thread",
+    "value" : "29936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_aqi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "cases",
+    "value" : "['case_003', '概述', '获取云AccessToken', '正常登陆', '/v1/getcloudtoken', '', 'get', 'params', '', '{\\n    \"cloudsecret\":\"QcdrQDJFfum3XetJa9KvkkuW2O1xS2rW\"\\n}', '', '{\\n    \"errcode\": \"0\",\\n    \"errmsg\": \"成功\",\\n    \"access_token\": \"IwtKr52j5mefoqjtD9UzBXzbUuR36sTP\"\\n}', '{\"$.errmsg\":\"成功\"}']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=0, reruns_delay=1)" ]
+  },
+  "source" : "fd6208d7b3aeaecd.json",
+  "parameterValues" : [ "['case_003', '概述', '获取云AccessToken', '正常登陆', '/v1/getcloudtoken', '', 'get', 'params', '', '{\\n    \"cloudsecret\":\"QcdrQDJFfum3XetJa9KvkkuW2O1xS2rW\"\\n}', '', '{\\n    \"errcode\": \"0\",\\n    \"errmsg\": \"成功\",\\n    \"access_token\": \"IwtKr52j5mefoqjtD9UzBXzbUuR36sTP\"\\n}', '{\"$.errmsg\":\"成功\"}']" ]
+}

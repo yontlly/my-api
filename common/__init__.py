@@ -6,6 +6,7 @@ import uuid
 import time
 from jsonpath import jsonpath
 from loguru import logger
+import os
 
 
 '''
@@ -24,6 +25,15 @@ def extractor(obj: dict, expr: str = '.') -> object:
         logger.error(f'提取不到内容，丢给你一个错误！{e}')
         result = None
     return result
+
+
+def dir_base(*fileName):
+    '''
+    :param fileName:path of file,name of file
+    :return: 绝对路径
+    '''
+    return os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), *fileName)
+
 
 
 # def rep_expr(content: str, data: dict, expr: str = '&(.*?)&') -> str:

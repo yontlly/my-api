@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ValueError: 可选关键字为：get/delete/head/options/请求使用params, post/put/patch请求可使用json（application/json）/data",
+      "children" : [ {
+        "name" : "testcase.test_aqi#test_main",
+        "uid" : "e24e58bc2b46cd0f",
+        "parentUid" : "3a87d1421fed0f721b760ed548e7a191",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625209173469,
+          "stop" : 1625209173490,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', '', '', '', '', '', '', '', '', '', '', '', '']" ]
+      }, {
+        "name" : "testcase.test_aqi#test_main",
+        "uid" : "679d8be5e9fbd1a5",
+        "parentUid" : "3a87d1421fed0f721b760ed548e7a191",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625209173765,
+          "stop" : 1625209173780,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', '', '', '', '', '', '', '', '', '', '', '', '']" ]
+      }, {
+        "name" : "testcase.test_aqi#test_main",
+        "uid" : "5e9d341f9d94a05c",
+        "parentUid" : "3a87d1421fed0f721b760ed548e7a191",
+        "status" : "broken",
+        "time" : {
+          "start" : 1625209173796,
+          "stop" : 1625209173814,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['', '', '', '', '', '', '', '', '', '', '', '', '']" ]
+      } ],
+      "uid" : "3a87d1421fed0f721b760ed548e7a191"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

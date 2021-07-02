@@ -1,4 +1,4 @@
-from common import logger, extractor, convert_json, rep_expr, allure_step
+from common import logger, extractor, convert_json, rep_expr, allure_step,dir_base
 from common.read_file import ReadFile
 import os
 
@@ -41,9 +41,9 @@ class DataProcess:
         else:
             return cls.header
 
-    @classmethod
-    def dir_base(cls,fileName,filePath='data/file'):
-        return os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))),filePath,fileName)
+    # @classmethod
+    # def dir_base(cls,fileName,filePath='data/file'):
+    #     return os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))),filePath,fileName)
 
     @classmethod
     def handler_files(cls, file_obj: str) -> object:
@@ -58,10 +58,10 @@ class DataProcess:
             if isinstance(v, list):
                 files = []
                 for path in v:
-                    files.append((k, (open(cls.dir_base(path), 'rb'))))
+                    files.append((k, (open(dir_base('data/file',path), 'rb'))))
             else:
                 # 单文件上传
-                files = {k: open(cls.dir_base(v), 'rb')}
+                files = {k: open(dir_base('data/file',v), 'rb')}
         return files
 
     @classmethod

@@ -1,0 +1,43 @@
+2021-07-02 14:18:41.817 | INFO     | __main__:run:16 - 开始测试...
+2021-07-02 14:18:42.490 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.206.83.102:8888/v1/gettoken?corpid=1917616998539305&corpsecret=T19aEv5yrt8OoN5RvIKKGwtAfTwH0MI8
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'corpid': '1917616998539305', 'corpsecret': 'T19aEv5yrt8OoN5RvIKKGwtAfTwH0MI8'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'access_token': 'pEHU5Oq2NxTgPwgwufxyW96tYLxLj5Ni'}
+2021-07-02 14:18:42.500 | ERROR    | common:extractor:24 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-07-02 14:18:42.504 | INFO     | common.data_process:save_response:21 - 添加key: case_001, 对应value: {'errcode': '0', 'errmsg': '成功', 'access_token': 'pEHU5Oq2NxTgPwgwufxyW96tYLxLj5Ni'}
+2021-07-02 14:18:42.510 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-07-02 14:18:42.606 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.206.83.102:8888/v1/gettoken
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-07-02 14:18:42.613 | INFO     | common.data_process:save_response:21 - 添加key: case_002, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-07-02 14:18:42.617 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-07-02 14:18:42.770 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.206.83.102:8888/v1/getcloudtoken?cloudsecret=QcdrQDJFfum3XetJa9KvkkuW2O1xS2rW
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'cloudsecret': 'QcdrQDJFfum3XetJa9KvkkuW2O1xS2rW'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'access_token': '9nLpvtZ9zZhncySCN35vFFYoSpBMB0Pn'}
+2021-07-02 14:18:42.778 | INFO     | common.data_process:save_response:21 - 添加key: case_003, 对应value: {'errcode': '0', 'errmsg': '成功', 'access_token': '9nLpvtZ9zZhncySCN35vFFYoSpBMB0Pn'}
+2021-07-02 14:18:42.783 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-07-02 14:18:42.883 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.206.83.102:8888/v1/getcloudtoken?cloudsecret=
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'cloudsecret': ''}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-07-02 14:18:42.892 | INFO     | common.data_process:save_response:21 - 添加key: case_004, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-07-02 14:18:42.895 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-07-02 14:18:50.568 | SUCCESS  | __main__:run:27 - 报告已生成

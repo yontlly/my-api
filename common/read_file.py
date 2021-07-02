@@ -1,6 +1,7 @@
 import yaml
 import xlrd
-from common import extractor
+from common import extractor,dir_base
+import os
 
 
 class ReadFile:
@@ -14,7 +15,7 @@ class ReadFile:
         """
         if cls.config_dict is None:
             # 指定编码格式解决，win下跑代码抛出错误
-            with open(config_path, 'r', encoding='utf-8') as file:
+            with open(dir_base(config_path), 'r', encoding='utf-8') as file:
                 cls.config_dict = yaml.load(file.read(), Loader=yaml.FullLoader)
         return cls.config_dict
 
@@ -33,7 +34,7 @@ class ReadFile:
         :return: data_list - pytest参数化可用的数据
         """
         data_list = []
-        book = xlrd.open_workbook(cls.read_config('$.file_path.test_case'))
+        book = xlrd.open_workbook(dir_base(cls.read_config('$.file_path.test_case')))
         # 读取第一个sheet页
         table = book.sheet_by_index(0)
         for norw in range(1, table.nrows):
