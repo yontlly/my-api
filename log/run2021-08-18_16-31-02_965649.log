@@ -1,0 +1,837 @@
+2021-08-18 16:31:02.992 | INFO     | __main__:run:15 - 开始测试...
+2021-08-18 16:31:03.519 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/gettoken?corpid=8901714857951333&corpsecret=5ZXPVBiimgMOsHiYOMsJOcR9mnAiF9SM
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'corpid': '8901714857951333', 'corpsecret': '5ZXPVBiimgMOsHiYOMsJOcR9mnAiF9SM'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'access_token': 'i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs'}
+2021-08-18 16:31:03.528 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-18 16:31:03.532 | INFO     | common.data_process:save_response:21 - 添加key: case_001, 对应value: {'errcode': '0', 'errmsg': '成功', 'access_token': 'i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs'}
+2021-08-18 16:31:03.537 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:03.627 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/gettoken
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:03.637 | INFO     | common.data_process:save_response:21 - 添加key: case_002, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:03.643 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:03.767 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/getcloudtoken?cloudsecret=QMCqzBHID04K60epIavwBLnp8V5Z4ucd
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'cloudsecret': 'QMCqzBHID04K60epIavwBLnp8V5Z4ucd'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'access_token': 'SQ1pCzFTVNvAHYtKuyhcsQzTARwLxbz0'}
+2021-08-18 16:31:03.776 | INFO     | common.data_process:save_response:21 - 添加key: case_003, 对应value: {'errcode': '0', 'errmsg': '成功', 'access_token': 'SQ1pCzFTVNvAHYtKuyhcsQzTARwLxbz0'}
+2021-08-18 16:31:03.794 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:03.886 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/getcloudtoken?cloudsecret=
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'cloudsecret': ''}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:03.894 | INFO     | common.data_process:save_response:21 - 添加key: case_004, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:03.900 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:03.990 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/corp/createcorp?access_token=SQ1pCzFTVNvAHYtKuyhcsQzTARwLxbz0
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'admin_name': 'admin', 'corp_name': '', 'account_number': '100'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.000 | INFO     | common.data_process:save_response:21 - 添加key: case_006, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.007 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:04.203 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/corp/extattr/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:04.211 | INFO     | common.data_process:save_response:21 - 添加key: case_008, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:04.216 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:04.518 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'pid': '0', 'name': '接口测试部门'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'did': '268435654'}
+2021-08-18 16:31:04.526 | INFO     | common.data_process:save_response:21 - 添加key: case_009, 对应value: {'errcode': '0', 'errmsg': '成功', 'did': '268435654'}
+2021-08-18 16:31:04.531 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:04.617 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'pid': '0', 'name': ''}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.626 | INFO     | common.data_process:save_response:21 - 添加key: case_010, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.631 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:04.717 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'pid': '0'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.725 | INFO     | common.data_process:save_response:21 - 添加key: case_011, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:04.730 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:05.682 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '部门里添加一人', 'department': [{'did': '268435654', 'order': '2', 'posName': 'ceo'}], 'gender': '1', 'sign': '故意添加一位作为群无法删除的条件', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951431'}
+2021-08-18 16:31:05.689 | INFO     | common.data_process:save_response:21 - 添加key: case_012, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951431'}
+2021-08-18 16:31:05.694 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:05.908 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '更新的部门', 'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:05.915 | INFO     | common.data_process:save_response:21 - 添加key: case_013, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:05.920 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:06.008 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '更新的部门', 'did': ''}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.015 | INFO     | common.data_process:save_response:21 - 添加key: case_014, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.021 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:06.112 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '更新的部门'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.120 | INFO     | common.data_process:save_response:21 - 添加key: case_015, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.125 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:06.363 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:06.372 | INFO     | common.data_process:save_response:21 - 添加key: case_016, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:06.378 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:06.476 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.483 | INFO     | common.data_process:save_response:21 - 添加key: case_017, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:06.489 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:06.707 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/relation?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'deptCount': '0', 'pageCount': '0', 'nextPage': '0', 'datas': []}
+2021-08-18 16:31:06.714 | INFO     | common.data_process:save_response:21 - 添加key: case_018, 对应value: {'errcode': '0', 'errmsg': '成功', 'deptCount': '0', 'pageCount': '0', 'nextPage': '0', 'datas': []}
+2021-08-18 16:31:06.720 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:06.958 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/relation?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'deptCount': '1', 'pageCount': '1', 'nextPage': '1', 'datas': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}]}
+2021-08-18 16:31:06.969 | INFO     | common.data_process:save_response:21 - 添加key: case_019, 对应value: {'errcode': '0', 'errmsg': '成功', 'deptCount': '1', 'pageCount': '1', 'nextPage': '1', 'datas': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}]}
+2021-08-18 16:31:06.981 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:07.257 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'dept_group': 'false'}
+2021-08-18 16:31:07.276 | INFO     | common.data_process:save_response:21 - 添加key: case_020, 对应value: {'errcode': '0', 'errmsg': '成功', 'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'dept_group': 'false'}
+2021-08-18 16:31:07.284 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:07.381 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:07.390 | INFO     | common.data_process:save_response:21 - 添加key: case_021, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:07.399 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:07.606 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/media/upload?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'type': 'image'}
+上传文件:{'media': <_io.BufferedReader name='D:\\my-api\\data/file\\等于100k.jpg'>}
+响应数据:{'errcode': '0', 'errmsg': '成功', 'type': 'image', 'media_id': '611cc54bee9eaccb1c425561', 'media_url': 'http://10.229.1.237:8989/uploads/image/20210818/36/36ecf235041ceac97966e04405bcad86.jpeg', 'created_at': '1629275467'}
+2021-08-18 16:31:07.617 | INFO     | common.data_process:save_response:21 - 添加key: case_022, 对应value: {'errcode': '0', 'errmsg': '成功', 'type': 'image', 'media_id': '611cc54bee9eaccb1c425561', 'media_url': 'http://10.229.1.237:8989/uploads/image/20210818/36/36ecf235041ceac97966e04405bcad86.jpeg', 'created_at': '1629275467'}
+2021-08-18 16:31:07.627 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:07.632 | INFO     | common.data_process:assert_result:113 - 第2个断言,实际结果:image | 预期结果:image 
+断言结果 True
+2021-08-18 16:31:07.777 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/media/upload?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'type': 'file'}
+上传文件:{'media': <_io.BufferedReader name='D:\\my-api\\data/file\\富文本.xls'>}
+响应数据:{'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54bee9eaccb055abeb1', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/15/15d91375b962651eaf1aa48902dcc3fc', 'created_at': '1629275467'}
+2021-08-18 16:31:07.785 | INFO     | common.data_process:save_response:21 - 添加key: case_025, 对应value: {'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54bee9eaccb055abeb1', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/15/15d91375b962651eaf1aa48902dcc3fc', 'created_at': '1629275467'}
+2021-08-18 16:31:07.794 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:07.946 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/media/upload?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'type': 'file'}
+上传文件:{'media': <_io.BufferedReader name='D:\\my-api\\data/file\\敏捷项目 - 测试流程规范.docx'>}
+响应数据:{'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54bee9eaccaff2edc81', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/5e/5ea9d08ff8f958304cc413f5f5c45a07.bin', 'created_at': '1629275468'}
+2021-08-18 16:31:07.959 | INFO     | common.data_process:save_response:21 - 添加key: case_026, 对应value: {'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54bee9eaccaff2edc81', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/5e/5ea9d08ff8f958304cc413f5f5c45a07.bin', 'created_at': '1629275468'}
+2021-08-18 16:31:07.968 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:08.130 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/media/upload?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'type': 'file'}
+上传文件:{'media': <_io.BufferedReader name='D:\\my-api\\data/file\\敏捷项目 - 测试流程规范.pdf'>}
+响应数据:{'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54cee9eaccb082bd8d1', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/94/94f65cc19519817f682d254378a97835.pdf', 'created_at': '1629275468'}
+2021-08-18 16:31:08.139 | INFO     | common.data_process:save_response:21 - 添加key: case_027, 对应value: {'errcode': '0', 'errmsg': '成功', 'type': 'file', 'media_id': '611cc54cee9eaccb082bd8d1', 'media_url': 'http://10.229.1.237:8989/uploads/file/20210818/94/94f65cc19519817f682d254378a97835.pdf', 'created_at': '1629275468'}
+2021-08-18 16:31:08.148 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:08.918 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '开开真帅', 'department': [{'did': '268435654', 'order': '1', 'posName': 'ceo'}], 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951432'}
+2021-08-18 16:31:08.924 | INFO     | common.data_process:save_response:21 - 添加key: case_028, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951432'}
+2021-08-18 16:31:08.931 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:09.215 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '开开真帅', 'department': [{'did': '268435654', 'order': '1', 'posName': 'ceo'}], 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '220001', 'errmsg': '用户帐号已存在'}
+2021-08-18 16:31:09.224 | INFO     | common.data_process:save_response:21 - 添加key: case_029, 对应value: {'errcode': '220001', 'errmsg': '用户帐号已存在'}
+2021-08-18 16:31:09.231 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:用户帐号已存在 | 预期结果:用户帐号已存在 
+断言结果 True
+2021-08-18 16:31:09.324 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '开开真帅', 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:09.332 | INFO     | common.data_process:save_response:21 - 添加key: case_030, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:09.340 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:09.549 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '开开真帅', 'department': [{'did': '268628868', 'order': '1', 'posName': 'ceo'}], 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '210005', 'errmsg': '部门不存在或部门id有误'}
+2021-08-18 16:31:09.557 | INFO     | common.data_process:save_response:21 - 添加key: case_031, 对应value: {'errcode': '210005', 'errmsg': '部门不存在或部门id有误'}
+2021-08-18 16:31:09.565 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:部门不存在或部门id有误 | 预期结果:部门不存在或部门id有误 
+断言结果 True
+2021-08-18 16:31:09.902 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'uid': '8901714857951432', 'name': '更新后的名字'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:09.909 | INFO     | common.data_process:save_response:21 - 添加key: case_032, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:09.916 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:10.138 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'uid': '191761511520', 'name': '更新后的名字'}
+上传文件:None
+响应数据:{'errcode': '220013', 'errmsg': '用户不存在或用户id有误'}
+2021-08-18 16:31:10.145 | INFO     | common.data_process:save_response:21 - 添加key: case_033, 对应value: {'errcode': '220013', 'errmsg': '用户不存在或用户id有误'}
+2021-08-18 16:31:10.153 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:用户不存在或用户id有误 | 预期结果:用户不存在或用户id有误 
+断言结果 True
+2021-08-18 16:31:10.484 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951432
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951432'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'account': 'kaikaizhenshuai', 'name': '更新后的名字', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'deptData': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'pid': '0', 'order': '1', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435654', 'posId': '100', 'order': '0', 'posName': 'ceo'}], 'userid': '8901714857951432', 'extattr': [], 'avatarUrl': ''}
+2021-08-18 16:31:10.491 | INFO     | common.data_process:save_response:21 - 添加key: case_034, 对应value: {'errcode': '0', 'errmsg': '成功', 'account': 'kaikaizhenshuai', 'name': '更新后的名字', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'deptData': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'pid': '0', 'order': '1', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435654', 'posId': '100', 'order': '0', 'posName': 'ceo'}], 'userid': '8901714857951432', 'extattr': [], 'avatarUrl': ''}
+2021-08-18 16:31:10.499 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:10.736 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951432', 'account': 'kaikaizhenshuai', 'name': '更新后的名字', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '1', 'orderTime': '1629275468', 'avatarUrl': ''}, {'uid': '8901714857951431', 'account': 'bumenlitianjiayiren', 'name': '部门里添加一人', 'enName': 'lucky', 'gender': '1', 'sign': '故意添加一位作为群无法删除的条件', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275465', 'avatarUrl': ''}]}
+2021-08-18 16:31:10.746 | INFO     | common.data_process:save_response:21 - 添加key: case_035, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951432', 'account': 'kaikaizhenshuai', 'name': '更新后的名字', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '1', 'orderTime': '1629275468', 'avatarUrl': ''}, {'uid': '8901714857951431', 'account': 'bumenlitianjiayiren', 'name': '部门里添加一人', 'enName': 'lucky', 'gender': '1', 'sign': '故意添加一位作为群无法删除的条件', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275465', 'avatarUrl': ''}]}
+2021-08-18 16:31:10.759 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:11.324 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951432
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951432'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:11.331 | INFO     | common.data_process:save_response:21 - 添加key: case_036, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:11.339 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:12.132 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '带头像的成员', 'avatar': '611cc54bee9eaccb1c425561', 'department': [{'did': '268435654', 'order': '2', 'posName': 'ceo'}], 'gender': '1', 'sign': '刘哥太帅了！不解释！', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951433'}
+2021-08-18 16:31:12.139 | INFO     | common.data_process:save_response:21 - 添加key: case_037, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951433'}
+2021-08-18 16:31:12.147 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:12.736 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951433
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951433'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:12.742 | INFO     | common.data_process:save_response:21 - 添加key: case_038, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:12.750 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:15.347 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/batch/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'users': [{'name': '批量创建用户1', 'account': 'piliangchuangjianyonghu1', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': 'boss', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553222', 'mobile': '13012344321'}, {'name': '批量创建用户2', 'account': 'piliangchuangjianyonghu2', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '总监', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553223', 'mobile': '13012344321'}, {'name': '批量创建用户3', 'account': 'piliangchuangjianyonghu3', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '经理', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553224', 'mobile': '13012344321'}, {'name': '批量创建用户44', 'account': 'piliangchuangjianyonghu44', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553225', 'mobile': '13012344321'}, {'name': '批量创建用户5', 'account': 'piliangchuangjianyonghu5', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553226', 'mobile': '13012344321'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'users': [{'name': '批量创建用户1', 'account': 'piliangchuangjianyonghu1', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': 'boss', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553222', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951435'}, {'name': '批量创建用户2', 'account': 'piliangchuangjianyonghu2', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '总监', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553223', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951436'}, {'name': '批量创建用户3', 'account': 'piliangchuangjianyonghu3', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '经理', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553224', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951437'}, {'name': '批量创建用户44', 'account': 'piliangchuangjianyonghu44', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553225', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951438'}, {'name': '批量创建用户5', 'account': 'piliangchuangjianyonghu5', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553226', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951439'}]}
+2021-08-18 16:31:15.355 | INFO     | common.data_process:save_response:21 - 添加key: case_039, 对应value: {'errcode': '0', 'errmsg': '成功', 'users': [{'name': '批量创建用户1', 'account': 'piliangchuangjianyonghu1', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': 'boss', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553222', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951435'}, {'name': '批量创建用户2', 'account': 'piliangchuangjianyonghu2', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '总监', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553223', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951436'}, {'name': '批量创建用户3', 'account': 'piliangchuangjianyonghu3', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '经理', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553224', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951437'}, {'name': '批量创建用户44', 'account': 'piliangchuangjianyonghu44', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553225', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951438'}, {'name': '批量创建用户5', 'account': 'piliangchuangjianyonghu5', 'avatar': '611cc54bee9eaccb1c425561', 'dept': '上海研发部', 'pos': '员工', 'gender': '1', 'sign': '任重⽽道远', 'tel': '0215553226', 'mobile': '13012344321', 'result': '1', 'msg': '成功', 'uid': '8901714857951439'}]}
+2021-08-18 16:31:15.367 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:15.599 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/ids?accounts%5B%5D=piliangchuangjianyonghu1&access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'access_token': 'i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951435', 'account': 'piliangchuangjianyonghu1'}]}
+2021-08-18 16:31:15.613 | INFO     | common.data_process:save_response:21 - 添加key: case_040, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951435', 'account': 'piliangchuangjianyonghu1'}]}
+2021-08-18 16:31:15.628 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:16.054 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/batch/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'uids': ['8901714857951435', '8901714857951436', '8901714857951437', '8901714857951438', '8901714857951439']}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'account': 'piliangchuangjianyonghu1', 'name': '批量创建用户1', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553222', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '101', 'order': '0', 'posName': 'boss'}], 'userid': '8901714857951435', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu2', 'name': '批量创建用户2', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553223', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '102', 'order': '0', 'posName': '总监'}], 'userid': '8901714857951436', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu3', 'name': '批量创建用户3', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553224', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '103', 'order': '0', 'posName': '经理'}], 'userid': '8901714857951437', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu44', 'name': '批量创建用户44', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553225', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '104', 'order': '0', 'posName': '员工'}], 'userid': '8901714857951438', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu5', 'name': '批量创建用户5', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553226', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '104', 'order': '0', 'posName': '员工'}], 'userid': '8901714857951439', 'extattr': [], 'avatarUrl': ''}]}
+2021-08-18 16:31:16.065 | INFO     | common.data_process:save_response:21 - 添加key: case_041, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'account': 'piliangchuangjianyonghu1', 'name': '批量创建用户1', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553222', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '101', 'order': '0', 'posName': 'boss'}], 'userid': '8901714857951435', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu2', 'name': '批量创建用户2', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553223', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '102', 'order': '0', 'posName': '总监'}], 'userid': '8901714857951436', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu3', 'name': '批量创建用户3', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553224', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '103', 'order': '0', 'posName': '经理'}], 'userid': '8901714857951437', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu44', 'name': '批量创建用户44', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553225', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '104', 'order': '0', 'posName': '员工'}], 'userid': '8901714857951438', 'extattr': [], 'avatarUrl': ''}, {'account': 'piliangchuangjianyonghu5', 'name': '批量创建用户5', 'enName': '', 'gender': '1', 'sign': '任重⽽道远', 'email': '', 'avatar': '611cc54bee9eaccb1c425561', 'tel': '0215553226', 'mobile': '13012344321', 'status': '1', 'deptData': [{'did': '268435658', 'name': '上海研发部', 'desp': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'sourceDid': ''}], 'roleId': '30', 'staffId': '', 'posData': [{'did': '268435658', 'posId': '104', 'order': '0', 'posName': '员工'}], 'userid': '8901714857951439', 'extattr': [], 'avatarUrl': ''}]}
+2021-08-18 16:31:16.082 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:16.333 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951431', 'account': 'bumenlitianjiayiren', 'name': '部门里添加一人', 'enName': 'lucky', 'gender': '1', 'sign': '故意添加一位作为群无法删除的条件', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275465', 'avatarUrl': ''}]}
+2021-08-18 16:31:16.341 | INFO     | common.data_process:save_response:21 - 添加key: case_042, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951431', 'account': 'bumenlitianjiayiren', 'name': '部门里添加一人', 'enName': 'lucky', 'gender': '1', 'sign': '故意添加一位作为群无法删除的条件', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275465', 'avatarUrl': ''}]}
+2021-08-18 16:31:16.360 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:17.982 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/batch/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'uids': ['8901714857951435', '8901714857951436', '8901714857951437', '8901714857951438', '8901714857951439']}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:17.988 | INFO     | common.data_process:save_response:21 - 添加key: case_044, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:18.005 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:18.282 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/relation?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:None
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'deptCount': '2', 'pageCount': '1', 'nextPage': '1', 'datas': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}, {'did': '268435658', 'name': '上海研发部', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}]}
+2021-08-18 16:31:18.291 | INFO     | common.data_process:save_response:21 - 添加key: case_045, 对应value: {'errcode': '0', 'errmsg': '成功', 'deptCount': '2', 'pageCount': '1', 'nextPage': '1', 'datas': [{'did': '268435654', 'name': '更新的部门', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}, {'did': '268435658', 'name': '上海研发部', 'desp': '', 'tel': '', 'pid': '0', 'order': '0', 'has_child': 'false', 'child': 'false'}]}
+2021-08-18 16:31:18.310 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:18.662 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435658
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435658'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:18.670 | INFO     | common.data_process:save_response:21 - 添加key: case_046, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:18.688 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:18.929 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '210008', 'errmsg': '部门下有子部门或成员'}
+2021-08-18 16:31:18.936 | INFO     | common.data_process:save_response:21 - 添加key: case_047, 对应value: {'errcode': '210008', 'errmsg': '部门下有子部门或成员'}
+2021-08-18 16:31:18.958 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:部门下有子部门或成员 | 预期结果:部门下有子部门或成员 
+断言结果 True
+2021-08-18 16:31:19.577 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951431
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951431'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:19.584 | INFO     | common.data_process:save_response:21 - 添加key: case_048, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:19.602 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:19.927 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435654
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435654'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:19.933 | INFO     | common.data_process:save_response:21 - 添加key: case_049, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:19.953 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:20.239 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'pid': '0', 'name': '群相关依赖部门'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'did': '268435664'}
+2021-08-18 16:31:20.246 | INFO     | common.data_process:save_response:21 - 添加key: case_050, 对应value: {'errcode': '0', 'errmsg': '成功', 'did': '268435664'}
+2021-08-18 16:31:20.270 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:20.944 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '我是群主呀', 'department': [{'did': '268435664', 'order': '2', 'posName': 'ceo'}], 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951441'}
+2021-08-18 16:31:20.952 | INFO     | common.data_process:save_response:21 - 添加key: case_051, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951441'}
+2021-08-18 16:31:20.977 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:21.756 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '我是群成员呀', 'department': [{'did': '268435664', 'order': '3', 'posName': 'ceo'}], 'gender': '0', 'sign': '刘哥好帅我要嫁给他', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951442'}
+2021-08-18 16:31:21.762 | INFO     | common.data_process:save_response:21 - 添加key: case_052, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951442'}
+2021-08-18 16:31:21.783 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:22.453 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '我是二号成员', 'department': [{'did': '268435664', 'order': '4', 'posName': 'ee'}], 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'enName': 'lucky', 'tel': '0215553222', 'mobile': '15000000000'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951443'}
+2021-08-18 16:31:22.459 | INFO     | common.data_process:save_response:21 - 添加key: case_053, 对应value: {'errcode': '0', 'errmsg': '成功', 'uid': '8901714857951443'}
+2021-08-18 16:31:22.480 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:22.804 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '自动化测试群聊', 'did': '268435664', 'hostUid': '8901714857951441', 'uids': ['8901714857951442']}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'groupid': '8901714857951444'}
+2021-08-18 16:31:22.811 | INFO     | common.data_process:save_response:21 - 添加key: case_054, 对应value: {'errcode': '0', 'errmsg': '成功', 'groupid': '8901714857951444'}
+2021-08-18 16:31:22.830 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:22.915 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/create?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '', 'did': '268435664', 'hostUid': '8901714857951441', 'uids': ['8901714857951442']}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:22.923 | INFO     | common.data_process:save_response:21 - 添加key: case_055, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:22.948 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:23.212 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'name': '修改后的群聊名'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:23.220 | INFO     | common.data_process:save_response:21 - 添加key: case_056, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:23.242 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:23.332 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/update?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'name': '修改后的群聊名'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:23.340 | INFO     | common.data_process:save_response:21 - 添加key: case_057, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:23.361 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:23.634 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '0'}}
+2021-08-18 16:31:23.642 | INFO     | common.data_process:save_response:21 - 添加key: case_058, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '0'}}
+2021-08-18 16:31:23.663 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:23.890 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:23.898 | INFO     | common.data_process:save_response:21 - 添加key: case_059, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': []}
+2021-08-18 16:31:23.925 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:24.150 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/add?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951443', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.160 | INFO     | common.data_process:save_response:21 - 添加key: case_060, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.185 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:24.219 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-18 16:31:24.281 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/add?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '', 'users': [{'uid': 'null', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:24.290 | INFO     | common.data_process:save_response:21 - 添加key: case_061, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:24.315 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:24.572 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/add?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.579 | INFO     | common.data_process:save_response:21 - 添加key: case_062, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.605 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:24.894 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/set?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951442', 'type': '109'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.901 | INFO     | common.data_process:save_response:21 - 添加key: case_063, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:24.926 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:25.206 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/set?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951442', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:25.214 | INFO     | common.data_process:save_response:21 - 添加key: case_064, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:25.245 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:25.528 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/set?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951442', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:25.536 | INFO     | common.data_process:save_response:21 - 添加key: case_065, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:25.564 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:25.830 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '4'}}
+2021-08-18 16:31:25.839 | INFO     | common.data_process:save_response:21 - 添加key: case_066, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '4'}}
+2021-08-18 16:31:25.868 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:26.080 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '0', 'type': '110'}, {'uid': '8901714857951441', 'type': '104'}, {'uid': '8901714857951442', 'type': '110'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:26.088 | INFO     | common.data_process:save_response:21 - 添加key: case_067, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '0', 'type': '110'}, {'uid': '8901714857951441', 'type': '104'}, {'uid': '8901714857951442', 'type': '110'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:26.111 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:26.434 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': ['8901714857951442', '8901714857951443']}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:26.441 | INFO     | common.data_process:save_response:21 - 添加key: case_068, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:26.462 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:26.486 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-18 16:31:26.806 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': ['8901714857951442', 'null']}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:26.813 | INFO     | common.data_process:save_response:21 - 添加key: case_069, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:26.835 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:27.164 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '1'}}
+2021-08-18 16:31:27.175 | INFO     | common.data_process:save_response:21 - 添加key: case_070, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': {'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '1'}}
+2021-08-18 16:31:27.207 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:27.444 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '104'}]}
+2021-08-18 16:31:27.453 | INFO     | common.data_process:save_response:21 - 添加key: case_071, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '104'}]}
+2021-08-18 16:31:27.487 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:27.789 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435664
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435664'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'account': 'woshiqunzhuya', 'name': '我是群主呀', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275480', 'avatarUrl': ''}, {'uid': '8901714857951442', 'account': 'woshiqunchengyuanya', 'name': '我是群成员呀', 'enName': 'lucky', 'gender': '0', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '3', 'orderTime': '1629275481', 'avatarUrl': ''}, {'uid': '8901714857951443', 'account': 'woshierhaochengyuan', 'name': '我是二号成员', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '4', 'orderTime': '1629275482', 'avatarUrl': ''}]}
+2021-08-18 16:31:27.802 | INFO     | common.data_process:save_response:21 - 添加key: case_073, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'account': 'woshiqunzhuya', 'name': '我是群主呀', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '2', 'orderTime': '1629275480', 'avatarUrl': ''}, {'uid': '8901714857951442', 'account': 'woshiqunchengyuanya', 'name': '我是群成员呀', 'enName': 'lucky', 'gender': '0', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '3', 'orderTime': '1629275481', 'avatarUrl': ''}, {'uid': '8901714857951443', 'account': 'woshierhaochengyuan', 'name': '我是二号成员', 'enName': 'lucky', 'gender': '1', 'sign': '刘哥好帅我要嫁给他', 'email': '', 'avatar': '', 'tel': '0215553222', 'mobile': '15000000000', 'status': '1', 'order': '4', 'orderTime': '1629275482', 'avatarUrl': ''}]}
+2021-08-18 16:31:27.848 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:28.192 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&account=woshiqunzhuya&pageNo=1&pageSize=1
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'account': 'woshiqunzhuya', 'pageNo': '1', 'pageSize': '1'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'totalCount': '1', 'datas': [{'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '1'}]}
+2021-08-18 16:31:28.200 | INFO     | common.data_process:save_response:21 - 添加key: case_074, 对应value: {'errcode': '0', 'errmsg': '成功', 'totalCount': '1', 'datas': [{'groupid': '8901714857951444', 'name': '修改后的群聊名', 'hostUid': '8901714857951441', 'hostName': '我是群主呀', 'count': '1'}]}
+2021-08-18 16:31:28.230 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:28.325 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&account=woshiqunzhuya&pageNo=1
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'account': 'woshiqunzhuya', 'pageNo': '1'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:28.360 | INFO     | common.data_process:save_response:21 - 添加key: case_075, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:28.398 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:28.510 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/list?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&account=&pageNo=1&pageSize=1
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'account': '', 'pageNo': '1', 'pageSize': '1'}
+上传文件:None
+响应数据:{'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:28.519 | INFO     | common.data_process:save_response:21 - 添加key: case_076, 对应value: {'errcode': '100001', 'errmsg': '参数缺失'}
+2021-08-18 16:31:28.559 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:参数缺失 | 预期结果:参数缺失 
+断言结果 True
+2021-08-18 16:31:28.863 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/add?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951443', 'type': '110'}, {'uid': '8901714857951442', 'type': '110'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:28.870 | INFO     | common.data_process:save_response:21 - 添加key: case_077, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:28.900 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:29.118 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '104'}, {'uid': '8901714857951442', 'type': '110'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:29.128 | INFO     | common.data_process:save_response:21 - 添加key: case_078, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '104'}, {'uid': '8901714857951442', 'type': '110'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:29.166 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:29.505 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/host/set?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'uid': '8901714857951442'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:29.520 | INFO     | common.data_process:save_response:21 - 添加key: case_079, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:29.556 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:29.765 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '110'}, {'uid': '8901714857951442', 'type': '104'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:29.775 | INFO     | common.data_process:save_response:21 - 添加key: case_080, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '110'}, {'uid': '8901714857951442', 'type': '104'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:29.813 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:30.162 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/set?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444', 'users': [{'uid': '8901714857951441', 'type': '109'}]}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:30.169 | INFO     | common.data_process:save_response:21 - 添加key: case_081, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:30.200 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:30.421 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/user/get?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '109'}, {'uid': '8901714857951442', 'type': '104'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:30.430 | INFO     | common.data_process:save_response:21 - 添加key: case_082, 对应value: {'errcode': '0', 'errmsg': '成功', 'datas': [{'uid': '8901714857951441', 'type': '109'}, {'uid': '8901714857951442', 'type': '104'}, {'uid': '8901714857951443', 'type': '110'}]}
+2021-08-18 16:31:30.458 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:30.902 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/group/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&groupid=8901714857951444
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'groupid': '8901714857951444'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:30.909 | INFO     | common.data_process:save_response:21 - 添加key: case_083, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:30.938 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:31.611 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951441
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951441'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:31.619 | INFO     | common.data_process:save_response:21 - 添加key: case_084, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:31.649 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:32.290 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951442
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951442'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:32.298 | INFO     | common.data_process:save_response:21 - 添加key: case_085, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:32.328 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:32.998 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/user/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&userid=8901714857951443
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'userid': '8901714857951443'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:33.007 | INFO     | common.data_process:save_response:21 - 添加key: case_086, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:33.044 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:33.415 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8888/v1/dept/delete?access_token=i5NwsdQbL5R54IeqfkAlpT3LooSFJ8cs&did=268435664
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'did': '268435664'}
+上传文件:None
+响应数据:{'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:33.424 | INFO     | common.data_process:save_response:21 - 添加key: case_087, 对应value: {'errcode': '0', 'errmsg': '成功'}
+2021-08-18 16:31:33.464 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:33.682 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/masteradminlogin?account=bWFzdGVyYWRtaW4%3D&password=ITIzNFF3ZXI%3D
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'account': 'bWFzdGVyYWRtaW4=', 'password': 'ITIzNFF3ZXI='}
+上传文件:None
+响应数据:{'trans_id': 'AAB7032678F3247516E86D68C1D0DBF1', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629275493', 'time_cost': '0.1', 'datas': [{'master_name': '云管理员', 'master_token': 'f0559b4d3a1907822623b0aba34121d4', 'master_token_expire_time': '86400', 'addr_conf': {'web_client': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_open': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8888', 'address': 'http://10.229.1.237:8888'}], 'srv_push': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9090', 'address': 'http://10.229.1.237:9090'}], 'web_fed': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_go': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9899', 'address': 'http://10.229.1.237:9899'}]}, 'inited': '1'}]}
+2021-08-18 16:31:33.695 | INFO     | common.data_process:save_response:21 - 添加key: test_001, 对应value: {'trans_id': 'AAB7032678F3247516E86D68C1D0DBF1', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629275493', 'time_cost': '0.1', 'datas': [{'master_name': '云管理员', 'master_token': 'f0559b4d3a1907822623b0aba34121d4', 'master_token_expire_time': '86400', 'addr_conf': {'web_client': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_open': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8888', 'address': 'http://10.229.1.237:8888'}], 'srv_push': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9090', 'address': 'http://10.229.1.237:9090'}], 'web_fed': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_go': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9899', 'address': 'http://10.229.1.237:9899'}]}, 'inited': '1'}]}
+2021-08-18 16:31:33.738 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:35.652 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/createcorp
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'trans_id': 'AAB7032678F3247516E86D68C1D0DBF1', 'master_token': 'f0559b4d3a1907822623b0aba34121d4', 'cn_name': '开开自动化测试', 'admin_name': 'kaikai4', 'max_user_num': '100'}
+上传文件:None
+响应数据:{'trans_id': 'AAB7032678F3247516E86D68C1D0DBF1', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629275495', 'time_cost': '1.827', 'datas': [{'cid': '8901714857951445', 'admin_account': 'kaikai4669', 'admin_uid': '8901714857951446'}]}
+2021-08-18 16:31:35.659 | INFO     | common.data_process:save_response:21 - 添加key: test_002, 对应value: {'trans_id': 'AAB7032678F3247516E86D68C1D0DBF1', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629275495', 'time_cost': '1.827', 'datas': [{'cid': '8901714857951445', 'admin_account': 'kaikai4669', 'admin_uid': '8901714857951446'}]}
+2021-08-18 16:31:35.690 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-18 16:31:35.715 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable

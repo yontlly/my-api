@@ -1,0 +1,43 @@
+2021-08-19 16:28:31.075 | INFO     | __main__:run:15 - 开始测试...
+2021-08-19 16:28:31.635 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/masteradminlogin?account=bWFzdGVyYWRtaW4%3D&password=ITIzNFF3ZXI%3D
+请求方法:get
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'account': 'bWFzdGVyYWRtaW4=', 'password': 'ITIzNFF3ZXI='}
+上传文件:None
+响应数据:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629361711', 'time_cost': '0.091', 'datas': [{'master_name': '云管理员', 'master_token': 'e8b06918206726ea8ea342544a83e3b6', 'master_token_expire_time': '86400', 'addr_conf': {'web_client': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_open': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8888', 'address': 'http://10.229.1.237:8888'}], 'srv_push': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9090', 'address': 'http://10.229.1.237:9090'}], 'web_fed': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_go': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9899', 'address': 'http://10.229.1.237:9899'}]}, 'inited': '1'}]}
+2021-08-19 16:28:31.644 | INFO     | common.data_process:save_response:21 - 添加key: test_001, 对应value: {'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '0', 'err_msg': '成功', 'timestamp': '1629361711', 'time_cost': '0.091', 'datas': [{'master_name': '云管理员', 'master_token': 'e8b06918206726ea8ea342544a83e3b6', 'master_token_expire_time': '86400', 'addr_conf': {'web_client': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_open': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8888', 'address': 'http://10.229.1.237:8888'}], 'srv_push': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9090', 'address': 'http://10.229.1.237:9090'}], 'web_fed': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '8282', 'address': 'http://10.229.1.237:8282'}], 'web_go': [{'scheme': 'http', 'host': '10.229.1.237', 'port': '9899', 'address': 'http://10.229.1.237:9899'}]}, 'inited': '1'}]}
+2021-08-19 16:28:31.659 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:成功 | 预期结果:成功 
+断言结果 True
+2021-08-19 16:28:32.373 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/createcorp
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'master_token': 'e8b06918206726ea8ea342544a83e3b6', 'cn_name': '开开自动化测试', 'admin_name': 'kaikai4', 'max_user_num': '100'}
+上传文件:None
+响应数据:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10003055', 'err_msg': '分配账号数不符合条件', 'timestamp': '1629361712', 'time_cost': '0.626', 'datas': []}
+2021-08-19 16:28:32.379 | INFO     | common.data_process:save_response:21 - 添加key: test_002, 对应value: {'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10003055', 'err_msg': '分配账号数不符合条件', 'timestamp': '1629361712', 'time_cost': '0.626', 'datas': []}
+2021-08-19 16:28:32.385 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:分配账号数不符合条件 | 预期结果:成功 
+断言结果 False
+2021-08-19 16:28:39.118 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-19 16:28:39.386 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/userlogin
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'account': 'Tm9uZQ==', 'password': 'MTExMTExMTE=', 'account_type': '1'}
+上传文件:None
+响应数据:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10000016', 'err_msg': '用户名或密码错误', 'timestamp': '1629361719', 'time_cost': '0.21', 'datas': []}
+2021-08-19 16:28:39.393 | INFO     | common.data_process:save_response:21 - 添加key: test_003, 对应value: {'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10000016', 'err_msg': '用户名或密码错误', 'timestamp': '1629361719', 'time_cost': '0.21', 'datas': []}
+2021-08-19 16:28:39.398 | INFO     | common.data_process:assert_result:113 - 第1个断言,实际结果:用户名或密码错误 | 预期结果:成功 
+断言结果 False
+2021-08-19 16:28:39.440 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-19 16:28:39.440 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-19 16:28:39.441 | ERROR    | common:extractor:26 - 提取不到内容，丢给你一个错误！'bool' object is not subscriptable
+2021-08-19 16:28:39.512 | INFO     | base.base_requests:send_api:97 - 
+最终请求地址:http://10.229.1.237:8787/corpmanage/app/create
+请求方法:post
+请求头:{'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'}
+请求参数:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'access_token': 'null', 'cid': 'null', 'client_ver': '3.1.0', 'dev_type': '7', 'operator_uid': 'null', 'name': '应用9-推送可交互', 'desc': '应用9-推送可交互', 'logo_url': '', 'logo_media_id': '', 'backend_url': '', 'mobile_home_url': '', 'pc_home_url': '', 'callback_url': '', 'token': '', 'new_window': '0', 'awake': '0', 'awake_app': '', 'awake_activity': '', 'awake_windows': '', 'ios_download_url': '', 'android_download_url': '', 'windows_download_url': '', 'app_download_url': '', 'visible_scopes': [{'did': '0', 'name': 'pytest'}], 'preadd_scopes': [{'did': '0', 'name': 'pytest', 'isExpand': 'true', 'icon': 'folder'}], 'interactive_url': 'http://localhost:12306/json', 'msgbtn_sync': '0'}
+上传文件:None
+响应数据:{'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10000007', 'err_msg': '非法 token', 'timestamp': '1629361719', 'time_cost': ''}
+2021-08-19 16:28:39.518 | INFO     | common.data_process:save_response:21 - 添加key: test_022, 对应value: {'trans_id': '85E44BCF002D0F6E4B61D2B0BA4D9569', 'err_code': '10000007', 'err_msg': '非法 token', 'timestamp': '1629361719', 'time_cost': ''}

@@ -7,6 +7,7 @@ import time
 from jsonpath import jsonpath
 from loguru import logger
 import os
+import base64
 
 
 '''
@@ -59,6 +60,9 @@ def rep_expr(content: str, data: dict, expr: str = '&(.*?)&') -> str:
     # 解决运算问题，实现+ -等常规数学运算， 用例书写格式{"uid":eval`&$.pid&+1`}
     for e in re.findall('eval`(.*)`', content):
         content = content.replace(f'eval`{e}`', str(eval(e)))
+    #解决account加密字段处理
+    for e in re.findall('base64`(.*)`', content):
+        content = content.replace(f'base64`{e}`', str(base64.b64encode(e.encode("utf-8")))[2:-1])
     # 解决一些借口需要传uuid的问题
     for s in re.findall('UUID', content):
         content = content.replace(f'UUID',str(uuid.uuid1()))
