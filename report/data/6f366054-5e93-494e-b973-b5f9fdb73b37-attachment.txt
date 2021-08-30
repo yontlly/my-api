@@ -1,0 +1,7 @@
+{
+    "trans_id": "6ADA51A9EDE1CB0F8B5A02A8CF81639C",
+    "master_token": "1b9c691a4c3dfaaa869f8f71796947b9",
+    "cn_name": "开开自动化测试",
+    "admin_name": "qwert2",
+    "max_user_num": "100"
+}

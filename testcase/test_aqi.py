@@ -21,6 +21,8 @@ def cases(request):
 def test_main(cases):#cases, get_db
     # 此处的cases入参来自cases函数，与直接使用 @pytest.mark.parametrize
     # 有着差不多的效果
+    #数据池先记录本次测试使用的基础account值
+    DataProcess.save_response('test_account',ReadFile.read_config(f'$.account.test_account'))
     # 发送请求
     response, expect, sql = BaseRequest.send_request(cases)
     # 执行sql

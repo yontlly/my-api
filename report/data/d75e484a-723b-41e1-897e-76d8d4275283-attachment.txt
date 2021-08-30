@@ -1,0 +1,282 @@
+{
+    "test_account": "qwert",
+    "test_001": {
+        "trans_id": "6ADA51A9EDE1CB0F8B5A02A8CF81639C",
+        "err_code": "0",
+        "err_msg": "成功",
+        "timestamp": "1629889000",
+        "time_cost": "0.088",
+        "datas": [
+            {
+                "master_name": "云管理员",
+                "master_token": "1b9c691a4c3dfaaa869f8f71796947b9",
+                "master_token_expire_time": "86400",
+                "addr_conf": {
+                    "web_client": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8282",
+                            "address": "http://10.229.1.237:8282"
+                        }
+                    ],
+                    "web_open": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8888",
+                            "address": "http://10.229.1.237:8888"
+                        }
+                    ],
+                    "srv_push": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "9090",
+                            "address": "http://10.229.1.237:9090"
+                        }
+                    ],
+                    "web_fed": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8282",
+                            "address": "http://10.229.1.237:8282"
+                        }
+                    ],
+                    "web_go": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "9899",
+                            "address": "http://10.229.1.237:9899"
+                        }
+                    ]
+                },
+                "inited": "1"
+            }
+        ]
+    },
+    "test_002": {
+        "trans_id": "6ADA51A9EDE1CB0F8B5A02A8CF81639C",
+        "err_code": "0",
+        "err_msg": "成功",
+        "timestamp": "1629889001",
+        "time_cost": "1.619",
+        "datas": [
+            {
+                "cid": "8901714857952272",
+                "admin_account": "qwert2",
+                "admin_uid": "8901714857952273"
+            }
+        ]
+    },
+    "test_003": {
+        "trans_id": "6ADA51A9EDE1CB0F8B5A02A8CF81639C",
+        "err_code": "0",
+        "err_msg": "成功",
+        "timestamp": "1629889002",
+        "time_cost": "0.439",
+        "datas": [
+            {
+                "access_token": "d0713984d0e67dfd",
+                "refresh_token": "252636af9d2db02c",
+                "uid": "8901714857952273",
+                "cid": "8901714857952272",
+                "corp_name": "开开自动化测试",
+                "user_name": "qwert2",
+                "role_id": "5",
+                "manage_dids": [
+                    {
+                        "did": "0",
+                        "name": "开开自动化测试"
+                    }
+                ],
+                "addr_conf": {
+                    "srv_conn": [
+                        "sshserver.91kook.cn:6000"
+                    ],
+                    "web_client": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8282",
+                            "address": "http://10.229.1.237:8282"
+                        }
+                    ],
+                    "web_open": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8888",
+                            "address": "http://10.229.1.237:8888"
+                        }
+                    ],
+                    "srv_push": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "9090",
+                            "address": "http://10.229.1.237:9090"
+                        }
+                    ],
+                    "web_fed": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "8282",
+                            "address": "http://10.229.1.237:8282"
+                        }
+                    ],
+                    "web_go": [
+                        {
+                            "scheme": "http",
+                            "host": "10.229.1.237",
+                            "port": "9899",
+                            "address": "http://10.229.1.237:9899"
+                        }
+                    ]
+                },
+                "addr_table": [
+                    {
+                        "addr_conf": {
+                            "relay_conn": [
+                                "10.229.1.237:20000"
+                            ],
+                            "web_go": [
+                                {
+                                    "address": "http://<COND_IP>:9899",
+                                    "scheme": "http",
+                                    "port": "9899",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_fed": [
+                                {
+                                    "address": "http://<COND_IP>:8282",
+                                    "scheme": "http",
+                                    "port": "8282",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "srv_push": [
+                                {
+                                    "address": "http://<COND_IP>:9090",
+                                    "scheme": "http",
+                                    "port": "9090",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_client": [
+                                {
+                                    "address": "http://<COND_IP>:8282",
+                                    "scheme": "http",
+                                    "port": "8282",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_open": [
+                                {
+                                    "address": "http://<COND_IP>:8888",
+                                    "scheme": "http",
+                                    "port": "8888",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_manage": [
+                                {
+                                    "port": "8787",
+                                    "address": "http://<COND_IP>:8787",
+                                    "scheme": "http",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_file": [
+                                {
+                                    "port": "8989",
+                                    "address": "http://<COND_IP>:8989",
+                                    "scheme": "http",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "srv_conn": []
+                        }
+                    },
+                    {
+                        "addr_conf": {
+                            "relay_conn": [
+                                "10.229.1.237:20000"
+                            ],
+                            "web_go": [
+                                {
+                                    "address": "http://<COND_IP>:9899",
+                                    "scheme": "http",
+                                    "port": "9899",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_fed": [
+                                {
+                                    "address": "http://<COND_IP>:8282",
+                                    "scheme": "http",
+                                    "port": "8282",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "srv_push": [
+                                {
+                                    "address": "http://<COND_IP>:9090",
+                                    "scheme": "http",
+                                    "port": "9090",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_client": [
+                                {
+                                    "address": "http://<COND_IP>:8282",
+                                    "scheme": "http",
+                                    "port": "8282",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_open": [
+                                {
+                                    "address": "http://<COND_IP>:8888",
+                                    "scheme": "http",
+                                    "port": "8888",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_manage": [
+                                {
+                                    "port": "8787",
+                                    "address": "http://<COND_IP>:8787",
+                                    "scheme": "http",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "web_file": [
+                                {
+                                    "port": "8989",
+                                    "address": "http://<COND_IP>:8989",
+                                    "scheme": "http",
+                                    "host": "<COND_IP>"
+                                }
+                            ],
+                            "srv_conn": []
+                        }
+                    }
+                ],
+                "dev_type": "7"
+            }
+        ]
+    },
+    "test_022": {
+        "trans_id": "6ADA51A9EDE1CB0F8B5A02A8CF81639C",
+        "err_code": "0",
+        "err_msg": "成功",
+        "timestamp": "1629889003",
+        "time_cost": "0.488",
+        "datas": []
+    }
+}

@@ -21,15 +21,12 @@ packaging==20.4
 ParamUnittest==0.2
 pluggy==0.13.1
 py==1.9.0
-pydantic==1.8.2
 PyMySQL==0.10.1
 pyparsing==2.4.7
 pytest==6.0.1
 pytest-rerunfailures==9.1.1
 python-multipart==0.0.5
 python-whois==0.7.3
-pywin32==228
-pywinauto==0.6.8
 PyYAML==5.3.1
 requests==2.24.0
 selenium==3.141.0
@@ -39,7 +36,6 @@ toml==0.10.1
 typing-extensions==3.10.0.0
 urllib3==1.25.10
 uvicorn==0.12.2
-vboxapi==1.0
 win32-setctime==1.0.3
 xlrd==1.2.0
 yagmail==0.11.224
