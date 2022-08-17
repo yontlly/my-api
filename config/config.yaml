@@ -2,7 +2,7 @@ server:
   # 本地接口服务
   test: http://127.0.0.1:8888/
   # https://space.bilibili.com/283273603 演示项目后端服务来自
-  dev: http://10.229.1.237:8888
+  dev: http://10.229.4.206:8888
 #  dev: http://192.168.1.165:8888
 
 # 基准的请求头信息
@@ -13,7 +13,7 @@ request_headers:
 
 #account字段更替
 account:
-  test_account: qwert
+  test_account: qwe
 
 # 提取规则设置
 expr:
