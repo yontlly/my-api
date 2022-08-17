@@ -36,7 +36,7 @@ class ReadFile:
         data_list = []
         book = xlrd.open_workbook(dir_base(cls.read_config('$.file_path.test_case')))
         # 读取第一个sheet页
-        table = book.sheet_by_index(0)
+        table = book.sheet_by_index(1)
         for norw in range(1, table.nrows):
             # 每行第4列 是否运行
             if table.cell_value(norw, 5) != '否':  # 每行第4列等于否将不读取内容
