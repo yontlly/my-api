@@ -15,7 +15,7 @@ class BaseRequest(object):
         return cls.session
 
     @classmethod
-    def send_request(cls, case: list, env: str = 'dev') -> object:
+    def send_request(cls, case: list,env_jenkins) -> object:
         """处理case数据，转换成可用数据发送请求
         :param case: 读取出来的每一行用例内容，可进行解包
         :param env: 环境名称 默认使用config.yaml server下的 dev 后面的基准地址
@@ -31,17 +31,18 @@ class BaseRequest(object):
         # 处理url、header、data、file、的前置方法
         test = "test"
         pwd = "pwd"
+        if env_jenkins=='dev':
+            env = ReadFile.read_config(f'$.server.{env_jenkins}')
+        else:
+            env=env_jenkins
         if test in case_number:
-            url1 = ReadFile.read_config(
-                f'$.server.{env}') + DataProcess.handle_path(path)
+            url1 = env + DataProcess.handle_path(path)
             url = url1.replace("8888", "8787")
         elif pwd in case_number:
-            url1 = ReadFile.read_config(
-                f'$.server.{env}') + DataProcess.handle_path(path)
+            url1 = env + DataProcess.handle_path(path)
             url = url1.replace("8888", "8282")
         else:
-            url = ReadFile.read_config(
-                f'$.server.{env}') + DataProcess.handle_path(path)
+            url = env + DataProcess.handle_path(path)
         allure_step('请求地址', url)
 
         header = DataProcess.handle_header(token)

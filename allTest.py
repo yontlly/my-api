@@ -18,6 +18,8 @@ def run():
             dir_base('testcase/test_aqi.py'),
             "-s",
             "-v",
+            f"--env_jenkins=http://10.229.1.237:8888",
+            f"--account_jenkins=xcv",
             f'--alluredir={report}/data'])
     # 自动以服务形式打开报告
     #os.system(f'allure serve {report}/data')
