@@ -35,15 +35,23 @@
 # print(a)
 
 
-import base64
-import re
+# import base64
+# import re
+# import time
+#
+# a='base64`kaifangg`'
+# for e in re.findall('base64`(.*)`', a):
+#     b=a.replace(f'base64`{e}`', str(base64.b64encode(e.encode("utf-8"))))
+#     print(b)
+#
+# content='eval`12+1`'
+# for e in re.findall('eval`(.*)`', content):
+#     content = content.replace(f'eval`{e}`', str(eval(e)))
+#     print(content)
+#
+#
+# print(str(int(time.time()+50000)))
 
-a='base64`kaifangg`'
-for e in re.findall('base64`(.*)`', a):
-    b=a.replace(f'base64`{e}`', str(base64.b64encode(e.encode("utf-8"))))
-    print(b)
-
-content='eval`12+1`'
-for e in re.findall('eval`(.*)`', content):
-    content = content.replace(f'eval`{e}`', str(eval(e)))
-    print(content)
+print(5*2+5*20*3+5*20*10*4+5*20*10*10*4)
+print(5*2+5*25*3+5*25*15*4+5*25*15*15*4)
+print(5*2+5*22*3+5*22*13*4+5*22*13*13*4)

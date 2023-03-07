@@ -63,13 +63,13 @@ def rep_expr(content: str, data: dict, expr: str = '&(.*?)&') -> str:
     #解决account加密字段处理
     for e in re.findall('base64`(.*)`', content):
         content = content.replace(f'base64`{e}`', str(base64.b64encode(e.encode("utf-8")))[2:-1])
-    # 解决一些借口需要传uuid的问题
+    # 解决接口需要传uuid的问题
     for s in re.findall('UUID', content):
         content = content.replace(f'UUID',str(uuid.uuid1()))
     for t in re.findall('s_time', content):
-        content = content.replace(f's_time',str(int(time.time()+50000)))
+        content = content.replace(f's_time',str(int(time.time())))
     for t1 in re.findall('e_time', content):
-        content = content.replace(f'e_time',str(int(time.time()+555550)))
+        content = content.replace(f'e_time',str(int(time.time()+3000)))
     return content
 
 # {

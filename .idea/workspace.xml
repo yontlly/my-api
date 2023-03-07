@@ -3,10 +3,51 @@
   <component name="ChangeListManager">
     <list default="true" id="f8a51088-195f-4d8d-97e4-d93f4a4e26a9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/allTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/case_data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/case_data.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_aqi.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_aqi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/0b8f80fb-1593-4600-92a3-d0030e3f2ecd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/1ead1035-ffa0-413a-964c-811abe762cae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/212715ce-2723-40f4-90a0-0799993574e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/225dbaa2-76f4-42fe-a404-84b35b900377-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/2538271e-0646-4509-9985-3dee9047eed5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/26fa3321-26d3-4f00-9522-7de1fd8ec359-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/2731905a-dfc2-4617-b81d-58ddf1f145c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/33fcb9f0-db3e-443c-b028-bde460bf448d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/42d12f55-36e2-42b8-8500-6d3a87037449-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/566596a3-9aa2-43ff-87e4-e7ef00629164-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/581ef961-3397-49e0-9284-b8a308f47383-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/614ad8ba-d865-4039-be3a-d091f83ad604-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/63e012e5-dbaf-4a5b-a31a-12adb72f0178-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/66580963-2712-4745-89dd-3b102855f130-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/6f366054-5e93-494e-b973-b5f9fdb73b37-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/7056f5ef-91f2-47aa-82cc-a5e0a3bc4238-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/7ba79de3-36c7-4afb-96f5-eaa76b8e7bcb-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/7d18dd9c-603d-448b-9611-31998e16c120-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/801364f5-f6d8-4468-b720-0d2a668c4f89-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/824fdeb0-d389-407a-ba9c-3e17a709aa38-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/83374f46-7220-4f75-b048-2506b35b00dd-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/860f9694-e723-48b9-93ca-19c1d60ba338-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/8c486bb2-6e5b-4748-b14a-dbf1d4a52d63-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/8fbea2d2-a29a-46d3-b922-a6e7ecbe09c5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/90b920b3-841c-4d82-ad10-4030b0183344-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/91075446-d61e-4521-ba0b-dc549f5ea09f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/96131483-8f7a-4464-b0f3-85d08e83822b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/a3f15295-1b6d-49ae-9aa0-f0b3bba34476-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/a6fa21e8-0db2-4e61-940a-336a14bb2d6e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/ae27fb1e-77c7-4a7e-b71d-675aa99d0343-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/bc0e2cf0-317c-45c1-b0cf-d3975ba93778-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/bd8fa908-7d27-4015-989e-f82fb5b7970d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/bda8174f-6f36-4f2f-bdda-c2a751c95363-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/c025db88-78f2-41d3-a655-bef03bb24304-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/cbb00de8-b1b8-4e82-b760-af45092d2c58-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/d2b6cca2-0d0a-44a8-9d5c-6cad66d2d2d7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/d75e484a-723b-41e1-897e-76d8d4275283-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/e3e792c9-3867-4a5a-a1e4-69b6fcec2831-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/e94d1010-22f0-47c6-a7ae-c478990cf8aa-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/data/f5aa8139-5ce4-490a-a2ec-a66c1726bbde-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +107,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="autosendmsg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/autosendmsg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ccwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +141,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../用例集合/性能脚本/ccwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qwe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/heihei" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/heihei/qwe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,27 +191,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_aqi.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="my-api" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_aqi.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.allTest" />
+        <item itemvalue="Python.autosendmsg" />
+        <item itemvalue="Python.qwe" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.ccwork" />
-        <item itemvalue="Python tests.pytest in test_aqi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -149,62 +218,55 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2331" y="186" key="#Inspections" timestamp="1625051416530">
+    <state width="1899" height="207" key="GridCell.Tab.0.bottom" timestamp="1674132752428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1674034496449" />
+    <state width="1362" height="293" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273565" />
+    <state width="1899" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1674132752428" />
+    <state width="1899" height="207" key="GridCell.Tab.0.center" timestamp="1674132752427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1674034496449" />
+    <state width="1362" height="293" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273565" />
+    <state width="1899" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1674132752427" />
+    <state width="1899" height="207" key="GridCell.Tab.0.left" timestamp="1674132752427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1674034496448" />
+    <state width="1362" height="293" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273565" />
+    <state width="1899" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1674132752427" />
+    <state width="1899" height="207" key="GridCell.Tab.0.right" timestamp="1674132752428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1674034496449" />
+    <state width="1362" height="293" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273565" />
+    <state width="1899" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1674132752428" />
+    <state width="1362" height="293" key="GridCell.Tab.1.bottom" timestamp="1671009273566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2331" y="186" key="#Inspections/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051416530" />
-    <state x="2571" y="174" key="#allTest" timestamp="1623829375411">
+    <state width="1362" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1670651239398" />
+    <state width="1362" height="293" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273566" />
+    <state width="1362" height="293" key="GridCell.Tab.1.center" timestamp="1671009273566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2571" y="174" key="#allTest/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1623829375411" />
-    <state width="1882" height="231" key="GridCell.Tab.0.bottom" timestamp="1629889680675">
+    <state width="1362" height="293" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1670651239395" />
+    <state width="1362" height="293" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273566" />
+    <state width="1362" height="293" key="GridCell.Tab.1.left" timestamp="1671009273566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1629275061766" />
-    <state width="1882" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629889680675" />
-    <state width="1882" height="231" key="GridCell.Tab.0.center" timestamp="1629889680674">
+    <state width="1362" height="293" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1670651239394" />
+    <state width="1362" height="293" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273566" />
+    <state width="1362" height="293" key="GridCell.Tab.1.right" timestamp="1671009273566">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1882" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1629275061766" />
-    <state width="1882" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629889680674" />
-    <state width="1882" height="231" key="GridCell.Tab.0.left" timestamp="1629889680674">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1362" height="293" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1670651239396" />
+    <state width="1362" height="293" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1671009273566" />
+    <state x="640" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1675136561543">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1629275061766" />
-    <state width="1882" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629889680674" />
-    <state width="1882" height="231" key="GridCell.Tab.0.right" timestamp="1629889680675">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1882" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1629275061766" />
-    <state width="1882" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629889680675" />
-    <state width="1882" height="325" key="GridCell.Tab.1.bottom" timestamp="1629873468324">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1626765466794" />
-    <state width="1882" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629873468324" />
-    <state width="1882" height="325" key="GridCell.Tab.1.center" timestamp="1629873468324">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="263" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1626765466794" />
-    <state width="1882" height="325" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629873468324" />
-    <state width="1882" height="325" key="GridCell.Tab.1.left" timestamp="1629873468324">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="263" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1626765466793" />
-    <state width="1882" height="325" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629873468324" />
-    <state width="1882" height="325" key="GridCell.Tab.1.right" timestamp="1629873468324">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="263" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1626765466794" />
-    <state width="1882" height="325" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1629873468324" />
-    <state x="2409" y="275" key="SettingsEditor" timestamp="1625051401348">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2409" y="275" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051401348" />
-    <state x="2419" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1625051285334">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2419" y="352" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1625051285334" />
+    <state x="640" y="351" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1675136561543" />
+    <state x="2560" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1668153762785" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +315,61 @@
           <url>file://$PROJECT_DIR$/common/data_process.py</url>
           <line>106</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_aqi.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcase/test_aqi.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/base_requests.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
